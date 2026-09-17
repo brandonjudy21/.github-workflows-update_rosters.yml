@@ -2,8 +2,11 @@ name: Update NFL Rosters
 
 on:
   schedule:
-    - cron: "0 9 * * 2" 
+    - cron: "0 9 * * 2"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-data:
@@ -11,18 +14,38 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Setup R Environment
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: 'release'
-          
+
       - name: Install Packages
         run: Rscript -e 'install.packages(c("nflreadr", "readr"))'
-          
-      - name: Run R Script
-        run: Rscript exec/update_officials.R
-        
+
+      - name: Run Embedded R Extraction
+        run: |
+          Rscript -e '
+            library(nflreadr)
+            library(readr)
+            
+            if (!dir.exists("data")) {
+              dir.create("data", recursive = TRUE)
+            }
+            
+            officials <- load_officials()
+            write_csv(officials, "data/officials.csv")
+            
+            target_season <- most_recent_season(roster = TRUE)
+            rosters_current <- load_rosters(seasons = target_season)
+            write_csv(rosters_current, "data/rosters_current.csv")
+            write_csv(rosters_current, paste0("data/rosters_", target_season, ".csv"))
+            
+            rosters_weekly <- load_rosters_weekly(seasons = target_season)
+            write_csv(rosters_weekly, "data/rosters_weekly_current.csv")
+            write_csv(rosters_weekly, paste0("data/rosters_weekly_", target_season, ".csv"))
+          '
+
       - name: Auto-Commit Back to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
