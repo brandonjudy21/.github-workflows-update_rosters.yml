@@ -19,10 +19,21 @@ jobs:
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: 'release'
+          use-public-rspm: true
 
-      - name: Install Packages
+      - name: Install Linux System Dependencies
         run: |
-          Rscript -e 'install.packages(c("nflreadr", "readr"), repos = "https://cloud.r-project.org")'
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libxml2-dev
+
+      - name: Install R Packages
+        run: |
+          Rscript -e '
+            install.packages(
+              c("nflreadr", "readr"),
+              repos = c("https://nflverse.r-universe.dev", "https://cloud.r-project.org")
+            )
+          '
 
       - name: Fetch Live Rosters and Officials
         run: |
@@ -46,7 +57,7 @@ jobs:
               write_csv(rosters, paste0("data/rosters_", target_season, ".csv"))
             }
 
-            # 3. Weekly Rosters (Depth Charts / Status)
+            # 3. Weekly Rosters (Depth Charts / Inactives)
             rosters_weekly <- tryCatch(load_rosters_weekly(seasons = target_season), error = function(e) NULL)
             if (!is.null(rosters_weekly)) {
               write_csv(rosters_weekly, "data/rosters_weekly_current.csv")
