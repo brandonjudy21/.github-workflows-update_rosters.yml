@@ -69,7 +69,142 @@ jobs:
         run: pip install pandas numpy
 
       - name: Execute Calibrated Betting Model
-        run: python run_calibrated_slate.py
+        run: |
+          python - << 'EOF'
+          import os
+          import pandas as pd
+          import numpy as np
+
+          BASE_DIR = os.getcwd()
+          DATA_DIR = os.path.join(BASE_DIR, 'data')
+
+          feature_files = ['master_ml_features_ultra_streamlined.csv', 'master_team_features_2026.csv']
+          master_file = next((f for f in feature_files if os.path.exists(os.path.join(BASE_DIR, f))), None)
+
+          teams = ['ARI', 'ATL', 'BAL', 'BUF', 'CAR', 'CHI', 'CIN', 'CLE',
+                   'DAL', 'DEN', 'DET', 'GB', 'HOU', 'IND', 'JAX', 'KC',
+                   'LAC', 'LAR', 'LV', 'MIA', 'MIN', 'NE', 'NO', 'NYG',
+                   'NYJ', 'PHI', 'PIT', 'SEA', 'SF', 'TB', 'TEN', 'WAS']
+
+          if master_file:
+              df_master = pd.read_csv(os.path.join(BASE_DIR, master_file)).set_index('TEAM')
+          else:
+              df_master = pd.DataFrame(index=teams)
+              df_master['OL_TPS_PBE'] = 95.0
+              df_master['CLEAN_YPA'] = 7.0
+              df_master['PRESSURE_YPA'] = 5.0
+              df_master['P2S_PCT'] = 16.5
+              df_master['DEF_COV_FINC_PCT'] = 10.0
+              df_master['DEF_RUN_STOP_PCT'] = 5.0
+              df_master['RB_YCOA'] = 2.8
+              df_master['OL_RUN_BLOCK_GRADE'] = 60.0
+              df_master['WR1_WOPR'] = 0.5
+              df_master['WR1_YPRR'] = 1.8
+              df_master['DEF_COV_YCS'] = 1.2
+              df_master['OL_TTPR'] = 2.85
+              df_master['OL_QPRESS_PCT'] = 20.0
+
+          inj_path = os.path.join(DATA_DIR, 'injuries_current.csv')
+          ngs_path = os.path.join(DATA_DIR, 'ngs_qb_current.csv')
+
+          if os.path.exists(inj_path):
+              df_injuries = pd.read_csv(inj_path)
+              team_col = next((c for c in ['team', 'team_abbr', 'recent_team'] if c in df_injuries.columns), None)
+              status_col = next((c for c in ['report_status', 'practice_status'] if c in df_injuries.columns), None)
+              if team_col and status_col:
+                  ol_out = df_injuries[(df_injuries['position'].isin(['T', 'OT', 'G', 'OG', 'C'])) & 
+                                       (df_injuries[status_col].isin(['Out', 'Doubtful', 'IR', 'PUP']))]
+                  for team, count in ol_out.groupby(team_col).size().to_dict().items():
+                      if team in df_master.index and 'OL_TPS_PBE' in df_master.columns:
+                          df_master.loc[team, 'OL_TPS_PBE'] -= (2.8 * count)
+
+          team_ttt = {}
+          if os.path.exists(ngs_path):
+              df_ngs = pd.read_csv(ngs_path)
+              if 'week' in df_ngs.columns and 'avg_time_to_throw' in df_ngs.columns:
+                  latest = df_ngs[df_ngs['week'] == df_ngs['week'].max()]
+                  team_ttt = latest.groupby('team_abbr')['avg_time_to_throw'].mean().to_dict()
+
+          for team in df_master.index:
+              ttt = team_ttt.get(team, 2.75)
+              ttpr = df_master.loc[team, 'OL_TTPR'] if 'OL_TTPR' in df_master.columns else 2.85
+              qpress = df_master.loc[team, 'OL_QPRESS_PCT'] if 'OL_QPRESS_PCT' in df_master.columns else 20.0
+              df_master.loc[team, 'POCKET_INTEGRITY'] = (ttpr - ttt) - (qpress / 100.0)
+
+          w2_slate = [
+              ('DET', 'BUF', -5.5, 54.5, 'Carl Cheffers'),
+              ('PHI', 'TEN', -7.5, 39.5, 'Bill Vinovich'),
+              ('PIT', 'NE', -5.5, 41.5, 'John Hussey'),
+              ('MIN', 'CHI', -4.5, 48.5, 'Scott Novak'),
+              ('CAR', 'ATL', -2.5, 44.0, 'Adrian Hill'),
+              ('GB', 'NYJ', -3.5, 44.5, 'Brad Allen'),
+              ('NO', 'BAL', -8.5, 46.5, 'Shawn Smith'),
+              ('CIN', 'HOU', -2.5, 46.0, 'Alex Kemp'),
+              ('CLE', 'TB', -8.5, 41.5, 'Clay Martin'),
+              ('JAX', 'DEN', -2.5, 45.5, 'Clete Blakeman'),
+              ('LV', 'LAC', -6.5, 43.5, 'Alan Eck'),
+              ('SEA', 'ARI', 3.5, 41.0, 'Land Clark'),
+              ('MIA', 'SF', -13.5, 45.0, 'Craig Wrolstad'),
+              ('WAS', 'DAL', -3.5, 50.5, 'Tra Blake'),
+              ('IND', 'KC', -6.5, 46.5, 'Ron Torbert'),
+              ('NYG', 'LAR', -7.5, 48.5, 'Brad Rogers')
+          ]
+
+          ref_profiles = {
+              'Carl Cheffers': 1.5, 'Scott Novak': 1.2, 'Shawn Smith': 1.0, 'Alex Kemp': 0.8,
+              'Brad Allen': 0.5, 'Clete Blakeman': 0.4, 'Land Clark': 0.2, 'Adrian Hill': 0.0,
+              'Craig Wrolstad': 0.0, 'Ron Torbert': -0.3, 'Tra Blake': -0.5, 'John Hussey': -0.7,
+              'Clay Martin': -1.0, 'Alan Eck': -1.0, 'Brad Rogers': -1.2, 'Bill Vinovich': -1.5
+          }
+
+          rows = []
+          for away, home, mkt_spr, mkt_tot, ref in w2_slate:
+              aw = df_master.loc[away]
+              hm = df_master.loc[home]
+              ref_adj = ref_profiles.get(ref, 0.0)
+
+              aw_trench = (aw['OL_TPS_PBE'] - 95.0) - (hm['DEF_COV_FINC_PCT'] - 10.0) * 0.2
+              hm_trench = (hm['OL_TPS_PBE'] - 95.0) - (aw['DEF_COV_FINC_PCT'] - 10.0) * 0.2
+
+              aw_ypa = ((0.65 * aw['CLEAN_YPA'] + 0.35 * aw['PRESSURE_YPA'])
+                        - (aw['P2S_PCT'] / 100.0) * 1.5 + aw['POCKET_INTEGRITY'] * 0.8)
+              hm_ypa = ((0.65 * hm['CLEAN_YPA'] + 0.35 * hm['PRESSURE_YPA'])
+                        - (hm['P2S_PCT'] / 100.0) * 1.5 + hm['POCKET_INTEGRITY'] * 0.8)
+
+              aw_pts = 21.5 + (aw_ypa - 6.5) * 1.8 + aw_trench * 0.4 + (ref_adj / 2.0) + (aw['RB_YCOA'] - 2.8)
+              hm_pts = 21.5 + (hm_ypa - 6.5) * 1.8 + hm_trench * 0.4 + (ref_adj / 2.0) + (hm['RB_YCOA'] - 2.8) + 1.8
+
+              proj_margin = round(hm_pts - aw_pts, 1)
+              proj_total = round(hm_pts + aw_pts, 1)
+
+              delta = proj_margin + mkt_spr
+              if delta > 1.5:
+                  spread_bet = f"{home} {mkt_spr if mkt_spr < 0 else f'-{mkt_spr}'}"
+              elif delta < -1.5:
+                  spread_bet = f"{away} {'+' + str(abs(mkt_spr)) if mkt_spr < 0 else str(-mkt_spr)}"
+              else:
+                  spread_bet = "PASS"
+
+              tot_delta = proj_total - mkt_tot
+              tot_bet = f"OVER {mkt_tot}" if tot_delta > 2.0 else (f"UNDER {mkt_tot}" if tot_delta < -2.0 else "PASS")
+
+              rows.append({
+                  'Matchup': f"{away} @ {home}",
+                  'Referee': ref,
+                  'Market_Spread': f"{home} {mkt_spr}" if mkt_spr < 0 else f"{away} -{mkt_spr}",
+                  'Model_Margin': f"{home} -{proj_margin}" if proj_margin > 0 else f"{away} -{-proj_margin}",
+                  'Target_Spread_Bet': spread_bet,
+                  'Spread_Edge': round(abs(delta), 1),
+                  'Market_Total': mkt_tot,
+                  'Model_Total': proj_total,
+                  'Target_Total_Bet': tot_bet,
+                  'Total_Edge': round(abs(tot_delta), 1)
+              })
+
+          os.makedirs(DATA_DIR, exist_ok=True)
+          pd.DataFrame(rows).to_csv(os.path.join(DATA_DIR, 'calibrated_execution_board.csv'), index=False)
+          print("Execution board generated successfully.")
+          EOF
 
       - name: Auto-Commit Outputs to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
