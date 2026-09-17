@@ -1,4 +1,4 @@
-name: Update NFL Rosters
+name: Update NFL Rosters and Run Model
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-data:
+  update-data-and-run-model:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -21,7 +21,7 @@ jobs:
           r-version: 'release'
           use-public-rspm: true
 
-      - name: Install Linux System Dependencies
+      - name: Install Linux Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libxml2-dev
@@ -47,20 +47,12 @@ jobs:
 
             target_season <- most_recent_season(roster = TRUE)
 
-            # 1. Base Administrative Feeds
             write_csv(load_officials(), "data/officials.csv")
             write_csv(load_rosters_weekly(target_season), "data/rosters_weekly_current.csv")
-
-            # 2. Injuries (practice participation & game status)
             write_csv(load_injuries(target_season), "data/injuries_current.csv")
-
-            # 3. Schedules (rest days, roof types, consensus totals)
             write_csv(load_schedules(target_season), "data/schedules_current.csv")
-
-            # 4. Snap Counts (offensive/defensive usage rates)
             write_csv(load_snap_counts(target_season), "data/snap_counts_current.csv")
 
-            # 5. Next Gen Stats Passing (Isolated TTT & CPOE)
             ngs_raw <- load_nextgen_stats(target_season, "passing")
             ngs_cols <- c("season", "week", "player_display_name", "team_abbr", 
                           "avg_time_to_throw", "completion_percentage_above_expectation", "aggressiveness")
@@ -68,8 +60,19 @@ jobs:
             write_csv(ngs_pass, "data/ngs_qb_current.csv")
           '
 
-      - name: Auto-Commit Back to Repository
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python Packages
+        run: pip install pandas numpy
+
+      - name: Execute Calibrated Betting Model
+        run: python run_calibrated_slate.py
+
+      - name: Auto-Commit Outputs to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update live rosters, injuries, schedules, snaps, and NGS [skip ci]"
+          commit_message: "Auto-update live data and calibrated execution board [skip ci]"
           file_pattern: "data/*.csv"
