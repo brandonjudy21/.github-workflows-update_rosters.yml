@@ -35,7 +35,7 @@ jobs:
             )
           '
 
-      - name: Fetch Live Rosters and Officials
+      - name: Fetch Live Rosters, Schedules, Injuries, Snaps, and NGS
         run: |
           Rscript -e '
             suppressPackageStartupMessages({
@@ -45,28 +45,31 @@ jobs:
 
             if (!dir.exists("data")) dir.create("data", recursive = TRUE)
 
-            # 1. Officials
-            officials <- tryCatch(load_officials(), error = function(e) NULL)
-            if (!is.null(officials)) write_csv(officials, "data/officials.csv")
-
-            # 2. Live Rosters
             target_season <- most_recent_season(roster = TRUE)
-            rosters <- tryCatch(load_rosters(seasons = target_season), error = function(e) NULL)
-            if (!is.null(rosters)) {
-              write_csv(rosters, "data/rosters_current.csv")
-              write_csv(rosters, paste0("data/rosters_", target_season, ".csv"))
-            }
 
-            # 3. Weekly Rosters (Depth Charts / Inactives)
-            rosters_weekly <- tryCatch(load_rosters_weekly(seasons = target_season), error = function(e) NULL)
-            if (!is.null(rosters_weekly)) {
-              write_csv(rosters_weekly, "data/rosters_weekly_current.csv")
-              write_csv(rosters_weekly, paste0("data/rosters_weekly_", target_season, ".csv"))
-            }
+            # 1. Base Administrative Feeds
+            write_csv(load_officials(), "data/officials.csv")
+            write_csv(load_rosters_weekly(target_season), "data/rosters_weekly_current.csv")
+
+            # 2. Injuries (practice participation & game status)
+            write_csv(load_injuries(target_season), "data/injuries_current.csv")
+
+            # 3. Schedules (rest days, roof types, consensus totals)
+            write_csv(load_schedules(target_season), "data/schedules_current.csv")
+
+            # 4. Snap Counts (offensive/defensive usage rates)
+            write_csv(load_snap_counts(target_season), "data/snap_counts_current.csv")
+
+            # 5. Next Gen Stats Passing (Isolated TTT & CPOE)
+            ngs_raw <- load_nextgen_stats(target_season, "passing")
+            ngs_cols <- c("season", "week", "player_display_name", "team_abbr", 
+                          "avg_time_to_throw", "completion_percentage_above_expectation", "aggressiveness")
+            ngs_pass <- ngs_raw[, intersect(ngs_cols, names(ngs_raw))]
+            write_csv(ngs_pass, "data/ngs_qb_current.csv")
           '
 
       - name: Auto-Commit Back to Repository
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update live NFL rosters and officials [skip ci]"
+          commit_message: "Auto-update live rosters, injuries, schedules, snaps, and NGS [skip ci]"
           file_pattern: "data/*.csv"
