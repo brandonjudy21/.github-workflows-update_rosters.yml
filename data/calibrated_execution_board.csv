@@ -1,17 +1,17 @@
 Matchup,Referee,Market_Spread,Model_Margin,Target_Spread_Bet,Spread_Edge,Market_Total,Model_Total,Target_Total_Bet,Total_Edge
-DET @ BUF,Carl Cheffers,BUF -5.5,BUF -5.0,PASS,0.5,54.5,40.5,UNDER 54.5,14.0
-PHI @ TEN,Bill Vinovich,TEN -7.5,TEN -3.2,PHI +7.5,4.3,39.5,40.1,PASS,0.6
-PIT @ NE,John Hussey,NE -5.5,NE -0.4,PIT +5.5,5.1,41.5,37.2,UNDER 41.5,4.3
-MIN @ CHI,Scott Novak,CHI -4.5,CHI -3.6,PASS,0.9,48.5,43.3,UNDER 48.5,5.2
-CAR @ ATL,Adrian Hill,ATL -2.5,ATL -1.9,PASS,0.6,44.0,42.0,PASS,2.0
-GB @ NYJ,Brad Allen,NYJ -3.5,NYJ -3.5,PASS,0.0,44.5,41.3,UNDER 44.5,3.2
-NO @ BAL,Shawn Smith,BAL -8.5,BAL -0.2,NO +8.5,8.3,46.5,42.5,UNDER 46.5,4.0
-CIN @ HOU,Alex Kemp,HOU -2.5,CIN -1.4,CIN +2.5,3.9,46.0,41.0,UNDER 46.0,5.0
-CLE @ TB,Clay Martin,TB -8.5,TB -4.2,CLE +8.5,4.3,41.5,36.3,UNDER 41.5,5.2
-JAX @ DEN,Clete Blakeman,DEN -2.5,DEN -1.3,PASS,1.2,45.5,43.0,UNDER 45.5,2.5
-LV @ LAC,Alan Eck,LAC -6.5,LV -1.9,LV +6.5,8.4,43.5,38.4,UNDER 43.5,5.1
-SEA @ ARI,Land Clark,SEA -3.5,ARI -2.8,ARI -3.5,6.3,41.0,40.3,PASS,0.7
-MIA @ SF,Craig Wrolstad,SF -13.5,SF -1.0,MIA +13.5,12.5,45.0,42.3,UNDER 45.0,2.7
-WAS @ DAL,Tra Blake,DAL -3.5,DAL -3.1,PASS,0.4,50.5,41.4,UNDER 50.5,9.1
-IND @ KC,Ron Torbert,KC -6.5,IND -1.3,IND +6.5,7.8,46.5,39.4,UNDER 46.5,7.1
-NYG @ LAR,Brad Rogers,LAR -7.5,LAR -1.4,NYG +7.5,6.1,48.5,41.9,UNDER 48.5,6.6
+DET @ BUF,Carl Cheffers,BUF -5.5,BUF -6.3,PASS,0.8,54.5,39.7,UNDER 54.5,14.8
+PHI @ TEN,Bill Vinovich,TEN -7.5,TEN -3.9,PHI +7.5,3.6,39.5,38.1,PASS,1.4
+PIT @ NE,John Hussey,NE -5.5,NE -0.3,PIT +5.5,5.2,41.5,38.3,UNDER 41.5,3.2
+MIN @ CHI,Scott Novak,CHI -4.5,CHI -2.1,MIN +4.5,2.4,48.5,41.3,UNDER 48.5,7.2
+CAR @ ATL,Adrian Hill,ATL -2.5,ATL -1.9,PASS,0.6,44.0,41.0,UNDER 44.0,3.0
+GB @ NYJ,Brad Allen,NYJ -3.5,NYJ -4.4,PASS,0.9,44.5,38.0,UNDER 44.5,6.5
+NO @ BAL,Shawn Smith,BAL -8.5,NO -1.7,NO +8.5,10.2,46.5,39.9,UNDER 46.5,6.6
+CIN @ HOU,Alex Kemp,HOU -2.5,CIN -1.2,CIN +2.5,3.7,46.0,41.0,UNDER 46.0,5.0
+CLE @ TB,Clay Martin,TB -8.5,TB -5.8,CLE +8.5,2.7,41.5,35.4,UNDER 41.5,6.1
+JAX @ DEN,Clete Blakeman,DEN -2.5,DEN -1.0,PASS,1.5,45.5,43.3,UNDER 45.5,2.2
+LV @ LAC,Alan Eck,LAC -6.5,LV -0.7,LV +6.5,7.2,43.5,35.7,UNDER 43.5,7.8
+SEA @ ARI,Land Clark,SEA -3.5,ARI -3.0,ARI -3.5,6.5,41.0,40.3,PASS,0.7
+MIA @ SF,Craig Wrolstad,SF -13.5,SF -2.5,MIA +13.5,11.0,45.0,41.5,UNDER 45.0,3.5
+WAS @ DAL,Tra Blake,DAL -3.5,DAL -4.3,PASS,0.8,50.5,39.6,UNDER 50.5,10.9
+IND @ KC,Ron Torbert,KC -6.5,IND -3.4,IND +6.5,9.9,46.5,38.0,UNDER 46.5,8.5
+NYG @ LAR,Brad Rogers,LAR -7.5,LAR -1.9,NYG +7.5,5.6,48.5,41.4,UNDER 48.5,7.1
