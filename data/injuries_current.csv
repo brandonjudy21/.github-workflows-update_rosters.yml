@@ -3167,3 +3167,316 @@ season,season_type,game_type,team,week,gsis_id,position,full_name,first_name,las
 2026,REG,REG,WAS,10,00-0039686,TE,Colson Yankoff,Colson,Yankoff,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
 2026,REG,REG,WAS,10,00-0039910,QB,Jayden Daniels,Jayden,Daniels,NA,NA,NA,Elbow,NA,Full Participation in Practice
 2026,REG,REG,WAS,10,00-0041108,C,Matt Gulbin,Matt,Gulbin,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0032954,G,Isaac Seumalo,Isaac,Seumalo,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0033890,S,Budda Baker,Bishard,Baker,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0034381,LB,Josh Sweat,Josh,Sweat,NA,NA,NA,Not injury related - resting player,Shoulder,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0035144,LB,Mack Wilson,Lyndell,Wilson,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0035258,C,Hjalte Froholdt,Hjalte,Froholdt,NA,NA,NA,Concussion,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0036568,DT,Roy Lopez,Roy,Lopez,NA,NA,NA,Toe,Ankle,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0037804,DT,Zachary Carter,Zachary,Carter,Knee,NA,Out,Knee,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0038571,G,Jon Gaines II,Jon,Gaines,Ankle,NA,Out,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,ARI,11,00-0039807,CB,Max Melton,Malachi,Melton,NA,NA,NA,Knee,Hand,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0039854,DT,Darius Robinson,Darius,Robinson,NA,NA,NA,Wrist,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0040706,DT,Walter Nolen,Walter,Nolen,NA,NA,NA,Illness,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0041113,T,Jayden Williams,Jayden,Williams,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,ARI,11,00-0041561,QB,Carson Beck,Carson,Beck,Back,NA,Questionable,Back,NA,Did Not Participate In Practice
+2026,REG,REG,BAL,11,00-0026190,DT,Calais Campbell,Calais,Campbell,NA,NA,NA,Not injury related - resting player,NA,Did Not Participate In Practice
+2026,REG,REG,BAL,11,00-0032965,T,Ronnie Stanley,Ronnie,Stanley,NA,NA,NA,Not injury related - resting player,Toe,Did Not Participate In Practice
+2026,REG,REG,BAL,11,00-0033281,CB,Marlon Humphrey,Marlon,Humphrey,Not injury related - personal matter,NA,Out,Not injury related - personal matter,NA,Did Not Participate In Practice
+2026,REG,REG,BAL,11,00-0036130,DT,Nnamdi Madubuike,Justin,Madubuike,Hamstring,NA,Out,Hamstring,NA,Did Not Participate In Practice
+2026,REG,REG,BAL,11,00-0036302,S,Jaylinn Hawkins,Jaylinn,Hawkins,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
+2026,REG,REG,BAL,11,00-0036369,G,John Simpson,John,Simpson,NA,NA,NA,Shoulder,NA,Limited Participation in Practice
+2026,REG,REG,BAL,11,00-0040722,LB,Mike Green,Michael,Green,NA,NA,NA,Biceps,NA,Full Participation in Practice
+2026,REG,REG,BAL,11,00-0040866,G,Olaivavega Ioane,Olaivavega,Ioane,NA,NA,NA,Knee,Shoulder,Full Participation in Practice
+2026,REG,REG,BAL,11,00-0040879,TE,Matthew Hibner,Matthew,Hibner,NA,NA,NA,Hand,NA,Full Participation in Practice
+2026,REG,REG,BAL,11,00-0040888,RB,Adam Randall,Adam,Randall,NA,NA,NA,Neck,Hamstring,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0035537,RB,Ty Johnson,Ty,Johnson,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0035632,S,Amani Hooker,Amani,Hooker,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0035679,C,Connor McGovern,Connor,McGovern,NA,NA,NA,Neck,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0036888,S,Damar Hamlin,Damar,Hamlin,Toe,NA,Questionable,Toe,NA,Limited Participation in Practice
+2026,REG,REG,BUF,11,00-0037034,CB,Dee Alford,DeAundre,Alford,NA,NA,NA,Concussion,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0037254,LB,Terrel Bernard,Terrel,Bernard,NA,NA,NA,Not injury related - resting player,NA,Did Not Participate In Practice
+2026,REG,REG,BUF,11,00-0037288,CB,Christian Benford,Christian,Benford,Groin,NA,Out,Groin,NA,Did Not Participate In Practice
+2026,REG,REG,BUF,11,00-0038548,G,O'Cyrus Torrence,O'Cyrus,Torrence,NA,NA,NA,Not injury related - personal matter,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0038557,LB,Dorian Williams,Dorian,Williams,Calf,NA,Out,Calf,NA,Did Not Participate In Practice
+2026,REG,REG,BUF,11,00-0038679,WR,Tyrell Shavers,Tyrell,Shavers,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0038933,TE,Dalton Kincaid,Dalton,Kincaid,Thumb,Ankle,Doubtful,Thumb,Ankle,Did Not Participate In Practice
+2026,REG,REG,BUF,11,00-0039872,S,Cole Bishop,Cole,Bishop,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0039875,RB,Ray Davis,Re'Mahn,Davis,NA,NA,NA,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0039901,WR,Keon Coleman,Keon,Coleman,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,BUF,11,00-0040194,TE,Jackson Hawes,Jackson,Hawes,Shoulder,NA,Questionable,Shoulder,NA,Limited Participation in Practice
+2026,REG,REG,BUF,11,00-0040724,DE,T.J. Sanders,Tanaeri,Sanders,Shoulder,NA,Questionable,Shoulder,NA,Limited Participation in Practice
+2026,REG,REG,CAR,11,00-0031610,TE,Darren Waller,Darren,Waller,Knee,NA,Questionable,Knee,NA,Limited Participation in Practice
+2026,REG,REG,CAR,11,00-0035277,CB,Mike Jackson,Michael,Jackson,Groin,NA,Questionable,Groin,NA,Full Participation in Practice
+2026,REG,REG,CAR,11,00-0035687,LB,Bobby Okereke,Robert,Okereke,Foot,NA,Out,Foot,NA,Did Not Participate In Practice
+2026,REG,REG,CAR,11,00-0036305,LB,Trevis Gipson,Trevis,Gipson,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,CAR,11,00-0036356,S,Isaiah Simmons,Isaiah,Simmons,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
+2026,REG,REG,CAR,11,00-0036555,RB,Chuba Hubbard,Chuba,Hubbard,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,CAR,11,00-0036825,TE,Feleipe Franks,Feleipe,Franks,NA,NA,NA,Wrist,NA,Full Participation in Practice
+2026,REG,REG,CAR,11,00-0036968,G,Brady Christensen,Brady,Christensen,Hamstring,NA,Questionable,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,CAR,11,00-0037005,TE,Tommy Tremble,Tommy,Tremble,Knee,NA,Questionable,Knee,NA,Limited Participation in Practice
+2026,REG,REG,CAR,11,00-0039150,QB,Bryce Young,Bryce,Young,NA,NA,NA,Foot,NA,Full Participation in Practice
+2026,REG,REG,CAR,11,00-0039344,RB,Jonathon Brooks,Jonathon,Brooks,Groin,NA,Questionable,Groin,NA,Full Participation in Practice
+2026,REG,REG,CAR,11,00-0041063,CB,Will Lee III,Will,Lee,NA,NA,NA,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,CAR,11,00-0041119,LB,Jackson Kuwatch,Jackson,Kuwatch,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,CHI,11,00-0035643,DT,Jeffery Simmons,Jeffery,Simmons,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,CHI,11,00-0038111,CB,Kyler Gordon,Kyler,Gordon,Shoulder,NA,Out,Shoulder,NA,Did Not Participate In Practice
+2026,REG,REG,CHI,11,00-0040236,RB,Kyle Monangai,Kyle,Monangai,NA,NA,NA,Toe,NA,Full Participation in Practice
+2026,REG,REG,CHI,11,00-0040735,WR,Luther Burden III,Luther,Burden,NA,NA,NA,Concussion,NA,Full Participation in Practice
+2026,REG,REG,CHI,11,00-0041051,WR,Zavion Thomas,Zavion,Thomas,Ankle,NA,Questionable,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,CHI,11,00-0041060,CB,Malik Muhammad,Malik,Muhammad,NA,NA,NA,Toe,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0033523,DT,Jonathan Allen,Jonathan,Allen,NA,NA,NA,Not injury related - resting player,NA,Limited Participation in Practice
+2026,REG,REG,CIN,11,00-0034446,CB,Jalen Davis,Jalen,Davis,Hamstring,NA,Doubtful,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0034754,LB,Oren Burks,Oren,Burks,Groin,NA,Out,Groin,NA,Did Not Participate In Practice
+2026,REG,REG,CIN,11,00-0034800,DT,B.J. Hill,Bobby,Hill,NA,NA,NA,Not injury related - resting player,NA,Did Not Participate In Practice
+2026,REG,REG,CIN,11,00-0035683,DT,Dexter Lawrence,Dexter,Lawrence,NA,NA,NA,Not injury related - resting player,NA,Did Not Participate In Practice
+2026,REG,REG,CIN,11,00-0035702,G,Dalton Risner,Dalton,Risner,Knee,Knee,Out,Knee,Knee,Did Not Participate In Practice
+2026,REG,REG,CIN,11,00-0036231,S,Kyle Dugger,Kyle,Dugger,Quadricep,NA,Questionable,Quadricep,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0036410,WR,Tee Higgins,Tamurice,Higgins,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0036442,QB,Joe Burrow,Joseph,Burrow,NA,NA,NA,Illness,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0037743,CB,Daxton Hill,Daxton,Hill,Illness,NA,Questionable,Illness,NA,Did Not Participate In Practice
+2026,REG,REG,CIN,11,00-0038619,WR,Andrei Iosivas,Andrei,Iosivas,Thumb,NA,Doubtful,Thumb,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0039313,LB,Swayze Bozeman,Swayze,Bozeman,Forearm,NA,Questionable,Forearm,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0039632,S,PJ Jules,PJ,Jules,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0040015,T,Myles Hinton,Myles,Hinton,NA,NA,NA,Illness,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0040140,G,Dylan Fairchild,Dylan,Fairchild,Oblique,NA,Questionable,Oblique,NA,Full Participation in Practice
+2026,REG,REG,CIN,11,00-0041098,G,Brian Parker II,Brian,Parker,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0027940,LB,Von Miller,Vonnie,Miller,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0033877,S,Malik Hooker,Malik,Hooker,NA,NA,NA,Groin,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0035227,S,P.J. Locke,James,Locke,Concussion,NA,Out,Concussion,NA,Did Not Participate In Practice
+2026,REG,REG,DAL,11,00-0035705,S,Jalen Thompson,Jalen,Thompson,Hamstring,NA,Questionable,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0037270,DE,Otito Ogbonnia,Otito,Ogbonnia,NA,NA,NA,Finger,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0037275,CB,DaRon Bland,DaRon,Bland,Ankle,NA,Out,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,DAL,11,00-0037310,LB,James Houston,James,Houston,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0037578,S,Juanyeh Thomas,Juanyeh,Thomas,NA,NA,NA,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0038041,TE,Jake Ferguson,Jake,Ferguson,Knee,Ankle,Out,Knee,Ankle,Did Not Participate In Practice
+2026,REG,REG,DAL,11,00-0038547,TE,Luke Schoonmaker,Luke,Schoonmaker,Illness,NA,Questionable,Illness,NA,Did Not Participate In Practice
+2026,REG,REG,DAL,11,00-0039062,WR,Jonathan Mingo,Jonathan,Mingo,Ankle,NA,Out,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,DAL,11,00-0039167,CB,Joey Porter Jr.,Joey,Porter,NA,NA,NA,Ankle,Foot,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0040007,G,Tyler Booker,Tyler,Booker,Ankle,NA,Out,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,DAL,11,00-0040008,CB,Shavon Revel Jr.,Shavon,Revel,NA,NA,NA,Illness,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0040725,LB,Donovan Ezeiruaku,Donovan,Ezeiruaku,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,DAL,11,00-0040872,LB,Jaishawn Barham,Jaishawn,Barham,Hip,Groin,Questionable,Hip,Groin,Did Not Participate In Practice
+2026,REG,REG,DAL,11,00-0040875,CB,Devin Moore,Devin,Moore,Hip,NA,Questionable,Hip,NA,Full Participation in Practice
+2026,REG,REG,DEN,11,00-0034348,WR,Courtland Sutton,Courtland,Sutton,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,DEN,11,00-0035248,DE,Zach Allen,Zachary,Allen,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,DEN,11,00-0036221,S,Brandon Jones,Brandon,Jones,Hamstring,NA,Questionable,Hamstring,NA,Limited Participation in Practice
+2026,REG,REG,DEN,11,00-0036564,S,Talanoa Hufanga,Talanoa,Hufanga,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,DEN,11,00-0036613,WR,Jaylen Waddle,Jaylen,Waddle,NA,NA,NA,Concussion,NA,Full Participation in Practice
+2026,REG,REG,DEN,11,00-0036727,FB,Adam Prentice,Adam,Prentice,NA,NA,NA,Concussion,NA,Full Participation in Practice
+2026,REG,REG,DEN,11,00-0038552,CB,Riley Moss,Riley,Moss,NA,NA,NA,Concussion,NA,Full Participation in Practice
+2026,REG,REG,DEN,11,00-0039371,CB,Kris Abrams-Draine,Kris,Abrams-Draine,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,DEN,11,00-0040240,TE,Caleb Lohner,Caleb,Lohner,Foot,NA,Out,Foot,NA,Full Participation in Practice
+2026,REG,REG,DET,11,00-0034384,CB,D.J. Reed,Dennis,Reed,Hip,NA,Questionable,Hip,NA,Limited Participation in Practice
+2026,REG,REG,DET,11,00-0035895,LB,Joe Bachie,Joe,Bachie,Knee,NA,Questionable,Knee,NA,Limited Participation in Practice
+2026,REG,REG,DET,11,00-0036124,CB,Khalil Dorsey,Khalil,Dorsey,Ankle,NA,Questionable,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,DET,11,00-0037297,C,Cade Mays,Cade,Mays,Ankle,NA,Out,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,DET,11,00-0037667,S,Kerby Joseph,Kerby,Joseph,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,DET,11,00-0038940,DE,Tyler Lacy,Tyler,Lacy,Shoulder,NA,Questionable,Shoulder,NA,Limited Participation in Practice
+2026,REG,REG,DET,11,00-0039364,RB,Sione Vaki,Sione,Vaki,Ankle,NA,Questionable,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,DET,11,00-0039862,CB,Ennis Rakestraw Jr.,Ennis,Rakestraw,Shoulder,NA,Questionable,Shoulder,NA,Limited Participation in Practice
+2026,REG,REG,DET,11,00-0040193,G,Miles Frazier,Miles,Frazier,NA,NA,NA,Not injury related - personal matter,NA,Did Not Participate In Practice
+2026,REG,REG,HOU,11,00-0031565,DE,Danielle Hunter,Danielle,Hunter,Hamstring,NA,Out,Hamstring,NA,Did Not Participate In Practice
+2026,REG,REG,HOU,11,00-0034399,G,Wyatt Teller,William,Teller,Back,NA,Questionable,Back,NA,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0035166,LB,Azeez Al-Shaair,Azeez,Al-Shaair,NA,NA,NA,Groin,NA,Did Not Participate In Practice
+2026,REG,REG,HOU,11,00-0035685,RB,David Montgomery,David,Montgomery,NA,NA,NA,Groin,NA,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0036556,TE,Brevin Jordan,Brevin,Jordan,Foot,Illness,Out,Foot,Illness,Did Not Participate In Practice
+2026,REG,REG,HOU,11,00-0037130,S,Reed Blankenship,Reed,Blankenship,NA,NA,NA,Hand,NA,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0037633,LB,Jacob Hummel,Jacob,Hummel,Groin,NA,Questionable,Groin,NA,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0038977,WR,Tank Dell,Nathaniel,Dell,NA,NA,NA,Hand,Shoulder,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0039343,CB,Kamari Lassiter,Kamari,Lassiter,NA,NA,NA,Wrist,NA,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0039849,WR,Marvin Harrison Jr.,Marvin,Harrison,Hamstring,NA,Out,Hamstring,NA,Did Not Participate In Practice
+2026,REG,REG,HOU,11,00-0039857,T,Blake Fisher,Blake,Fisher,NA,NA,NA,Thumb,NA,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0040149,CB,Jaylin Smith,Jaylin,Smith,Hamstring,NA,Questionable,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0040583,RB,Woody Marks,Jo'Quavious,Marks,Concussion,NA,Out,Concussion,NA,Did Not Participate In Practice
+2026,REG,REG,HOU,11,00-0041532,G,Keylan Rutledge,Keylan,Rutledge,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,HOU,11,00-0041559,G,Febechi Nwaiwu,Febechi,Nwaiwu,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,IND,11,00-0032753,LS,Luke Rhodes,Luke,Rhodes,Hamstring,NA,Questionable,Hamstring,NA,Limited Participation in Practice
+2026,REG,REG,IND,11,00-0034573,CB,Charvarius Ward,Charvarius,Ward,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
+2026,REG,REG,IND,11,00-0035674,DT,Jerry Tillery,Jerry,Tillery,Calf,NA,Out,Calf,NA,Did Not Participate In Practice
+2026,REG,REG,IND,11,00-0036195,T,Charlie Heck,Charlie,Heck,NA,NA,NA,Not injury related - personal matter,NA,Did Not Participate In Practice
+2026,REG,REG,IND,11,00-0037190,CB,Sauce Gardner,Ahmad,Gardner,Calf,NA,Questionable,Calf,NA,Did Not Participate In Practice
+2026,REG,REG,IND,11,00-0037757,T,Bernhard Raimann,Bernhard,Raimann,Concussion,NA,Out,Concussion,NA,Did Not Participate In Practice
+2026,REG,REG,IND,11,00-0038394,TE,Will Mallory,Will,Mallory,Hamstring,NA,Out,Hamstring,NA,Did Not Participate In Practice
+2026,REG,REG,IND,11,00-0039377,LB,Jaylon Carlies,Jaylon,Carlies,NA,NA,NA,Neck,NA,Did Not Participate In Practice
+2026,REG,REG,IND,11,00-0039578,G,Dalton Tucker,Dalton,Tucker,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,IND,11,00-0039816,WR,Anthony Gould,Anthony,Gould,Toe,NA,Questionable,Toe,NA,Full Participation in Practice
+2026,REG,REG,IND,11,00-0040163,T,Jalen Travis,Jalen,Travis,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
+2026,REG,REG,JAX,11,00-0032164,DT,Arik Armstead,Arik,Armstead,NA,NA,NA,Not injury related - personal matter,NA,Full Participation in Practice
+2026,REG,REG,JAX,11,00-0034657,DT,Matt Dickerson,Matthew,Dickerson,Neck,NA,Questionable,Neck,NA,Limited Participation in Practice
+2026,REG,REG,JAX,11,00-0034960,WR,Jakobi Meyers,Jakobi,Meyers,NA,NA,NA,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,JAX,11,00-0036655,T,Cole Van Lanen,Cole,Van Lanen,NA,NA,NA,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,JAX,11,00-0036985,C,Robert Hainsey,Robert,Hainsey,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
+2026,REG,REG,JAX,11,00-0037235,DE,Travon Walker,Yury,Walker,NA,NA,NA,Rib,NA,Full Participation in Practice
+2026,REG,REG,JAX,11,00-0038596,S,Antonio Johnson,Antonio,Johnson,NA,NA,NA,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,JAX,11,00-0038611,RB,Chris Rodriguez Jr.,Chris,Rodriguez,NA,NA,NA,Hand,NA,Full Participation in Practice
+2026,REG,REG,JAX,11,00-0040209,LB,Jalen McLeod,Jalen,McLeod,NA,NA,NA,Groin,NA,Limited Participation in Practice
+2026,REG,REG,JAX,11,00-0040227,C,Jonah Monheim,Jonah,Monheim,NA,NA,NA,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,JAX,11,00-0040238,RB,LeQuint Allen Jr.,LeQuint,Allen,NA,NA,NA,Hamstring,NA,Limited Participation in Practice
+2026,REG,REG,JAX,11,00-0040329,DE,BJ Green II,BJ,Green,Forearm,NA,Out,Forearm,NA,Full Participation in Practice
+2026,REG,REG,JAX,11,00-0040342,DE,Danny Striggow,Danny,Striggow,Concussion,NA,Questionable,Concussion,NA,Limited Participation in Practice
+2026,REG,REG,JAX,11,00-0040719,RB,Bhayshul Tuten,Bhayshul,Tuten,NA,NA,NA,Ankle,Foot,Limited Participation in Practice
+2026,REG,REG,KC,11,00-0030506,TE,Travis Kelce,Travis,Kelce,NA,NA,NA,Calf,Ankle,Full Participation in Practice
+2026,REG,REG,KC,11,00-0033873,QB,Patrick Mahomes,Patrick,Mahomes,NA,NA,NA,Elbow,Knee,Full Participation in Practice
+2026,REG,REG,KC,11,00-0036380,S,Alohi Gilman,Alohi,Gilman,NA,NA,NA,Quadricep,NA,Full Participation in Practice
+2026,REG,REG,KC,11,00-0036557,T,Jaylon Moore,Jaylon,Moore,Ankle,NA,Out,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,KC,11,00-0036621,LB,Nick Bolton,Nicholas,Bolton,NA,NA,NA,Shin,NA,Full Participation in Practice
+2026,REG,REG,KC,11,00-0036660,G,Trey Smith,Henry,Smith,Concussion,NA,Out,Concussion,NA,Did Not Participate In Practice
+2026,REG,REG,KC,11,00-0036945,QB,Justin Fields,Justin,Fields,NA,NA,NA,Neck,NA,Full Participation in Practice
+2026,REG,REG,KC,11,00-0038134,RB,Kenneth Walker III,Kenneth,Walker,Groin,NA,Out,Groin,NA,Did Not Participate In Practice
+2026,REG,REG,KC,11,00-0039067,WR,Rashee Rice,Rashee,Rice,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,KC,11,00-0040072,LB,Jeffrey Bassa,Jeffrey,Bassa,NA,NA,NA,Hand,NA,Full Participation in Practice
+2026,REG,REG,KC,11,00-0040748,DT,Omarr Norman-Lott,Omarr,Norman-Lott,Knee,NA,Questionable,Knee,NA,Limited Participation in Practice
+2026,REG,REG,KC,11,00-0040959,RB,Jaydn Ott,Jaydn,Ott,NA,NA,NA,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,KC,11,00-0041497,CB,Jadon Canady,Jadon,Canady,NA,NA,NA,Thumb,NA,Full Participation in Practice
+2026,REG,REG,KC,11,00-0041543,CB,Mansoor Delane,Mansoor,Delane,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,KC,11,00-0041545,DT,Peter Woods,Peter,Woods,Neck,NA,Questionable,Neck,NA,Limited Participation in Practice
+2026,REG,REG,LAC,11,00-0031040,LB,Khalil Mack,Khalil,Mack,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,LAC,11,00-0032146,LB,Bud Dupree,Alvin,Dupree,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,LAC,11,00-0033546,DT,Dalvin Tomlinson,Dalvin,Tomlinson,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,LAC,11,00-0034356,CB,Donte Jackson,Donte,Jackson,NA,NA,NA,Groin,NA,Full Participation in Practice
+2026,REG,REG,LAC,11,00-0035688,T,Trey Pipkins,Trey,Pipkins,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,LAC,11,00-0038046,TE,Charlie Kolar,Charlie,Kolar,Concussion,NA,Questionable,Concussion,NA,Limited Participation in Practice
+2026,REG,REG,LAC,11,00-0038414,S,Kendall Williamson,Kendall,Williamson,Calf,NA,Out,Calf,NA,Did Not Participate In Practice
+2026,REG,REG,LAC,11,00-0038553,LB,Daiyan Henley,Daiyan,Henley,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
+2026,REG,REG,LAC,11,00-0039366,CB,Tarheeb Still,Tarheeb,Still,Ankle,NA,Questionable,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,LAC,11,00-0039835,DE,Justin Eboigbe,Justin,Eboigbe,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,LAC,11,00-0039915,WR,Ladd McConkey,Andrew,McConkey,Back,NA,Questionable,Back,NA,Limited Participation in Practice
+2026,REG,REG,LAC,11,00-0040065,CB,Isas Waxter,Isas,Waxter,Ankle,NA,Questionable,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,LAC,11,00-0041381,CB,Rodney Shelley,Rodney,Shelley,Ankle,NA,Out,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,LAC,11,00-0041550,WR,Brenen Thompson,Brenen,Thompson,Hamstring,NA,Doubtful,Hamstring,NA,Did Not Participate In Practice
+2026,REG,REG,LV,11,00-0034275,DT,Foley Fatukasi,Folorunso,Fatukasi,Toe,NA,Questionable,Toe,NA,Full Participation in Practice
+2026,REG,REG,LV,11,00-0034365,TE,Ian Thomas,Ian,Thomas,NA,NA,NA,Calf,Ankle,Full Participation in Practice
+2026,REG,REG,LV,11,00-0035269,K,Matt Gay,Matt,Gay,Hip,NA,Questionable,Hip,NA,Limited Participation in Practice
+2026,REG,REG,LV,11,00-0037262,DT,Thomas Booker,Earl,Booker,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,LV,11,00-0039338,TE,Brock Bowers,Brock,Bowers,Ankle,Quadricep,Questionable,Ankle,Quadricep,Limited Participation in Practice
+2026,REG,REG,LV,11,00-0040169,DT,Tonka Hemingway,Terrell,Hemingway,Stinger,NA,Out,Stinger,NA,Did Not Participate In Practice
+2026,REG,REG,LV,11,00-0040871,C,Trey Zuhn III,Trey,Zuhn,NA,NA,NA,Illness,NA,Full Participation in Practice
+2026,REG,REG,MIA,11,00-0032065,P,Bradley Pinion,Bradley,Pinion,Groin,NA,Out,Groin,NA,Did Not Participate In Practice
+2026,REG,REG,MIA,11,00-0036171,C,Aaron Brewer,Aaron,Brewer,Concussion,NA,Questionable,Concussion,NA,Full Participation in Practice
+2026,REG,REG,MIA,11,00-0037549,CB,Darrell Baker Jr.,Darrell,Baker,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,MIA,11,00-0037686,LS,Tucker Addington,Tucker,Addington,NA,NA,NA,Shoulder,NA,Limited Participation in Practice
+2026,REG,REG,MIA,11,00-0038728,WR,Jared Wayne,Jared,Wayne,Quadricep,NA,Out,Quadricep,NA,Did Not Participate In Practice
+2026,REG,REG,MIA,11,00-0039156,CB,Julius Brents,Julius,Brents,NA,NA,NA,Neck,NA,Full Participation in Practice
+2026,REG,REG,MIA,11,00-0039383,CB,Jaylin Simpson,Jaylin,Simpson,Knee,NA,Doubtful,Knee,NA,Limited Participation in Practice
+2026,REG,REG,MIA,11,00-0039390,CB,Marcellas Dial Jr.,Marcellas,Dial,Toe,NA,Questionable,Toe,NA,Full Participation in Practice
+2026,REG,REG,MIA,11,00-0039485,C,Andrew Meyer,Andrew,Meyer,NA,NA,NA,Neck,NA,Full Participation in Practice
+2026,REG,REG,MIA,11,00-0040182,S,Dante Trader Jr.,Dante,Trader,Shoulder,Groin,Doubtful,Shoulder,Groin,Did Not Participate In Practice
+2026,REG,REG,MIA,11,00-0041523,WR,Caleb Douglas,Caleb,Douglas,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,MIA,11,00-0041525,WR,Chris Bell,Christopher,Bell,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,MIN,11,00-0029606,S,Harrison Smith,Harrison,Smith,NA,NA,NA,Not injury related - resting player,NA,Limited Participation in Practice
+2026,REG,REG,MIN,11,00-0031360,LB,Kyle Van Noy,Kyle,Van Noy,NA,NA,NA,Calf,NA,Full Participation in Practice
+2026,REG,REG,MIN,11,00-0035228,QB,Kyler Murray,Kyler,Murray,Hamstring,NA,Out,Hamstring,NA,Did Not Participate In Practice
+2026,REG,REG,MIN,11,00-0035229,TE,T.J. Hockenson,Thomas,Hockenson,NA,NA,NA,Wrist,NA,Full Participation in Practice
+2026,REG,REG,MIN,11,00-0035272,LB,Andrew Van Ginkel,Andrew,Van Ginkel,NA,NA,NA,Quadricep,NA,Full Participation in Practice
+2026,REG,REG,MIN,11,00-0035276,LB,Blake Cashman,Blake,Cashman,NA,NA,NA,Concussion,NA,Full Participation in Practice
+2026,REG,REG,MIN,11,00-0036222,CB,Isaiah Rodgers,Isaiah,Rodgers,Quadricep,NA,Questionable,Quadricep,NA,Limited Participation in Practice
+2026,REG,REG,MIN,11,00-0036259,WR,Jauan Jennings,Bennie,Jennings,NA,NA,NA,Calf,NA,Full Participation in Practice
+2026,REG,REG,MIN,11,00-0036616,T,Christian Darrisaw,Christian,Darrisaw,NA,NA,NA,Not injury related - resting player,NA,Did Not Participate In Practice
+2026,REG,REG,MIN,11,00-0038578,S,Jay Ward,Jay,Ward,Knee,NA,Questionable,Knee,NA,Limited Participation in Practice
+2026,REG,REG,MIN,11,00-0038994,WR,Jordan Addison,Jordan,Addison,Thumb,NA,Out,Thumb,NA,Did Not Participate In Practice
+2026,REG,REG,MIN,11,00-0039710,WR,Jeshaun Jones,Jeshaun,Jones,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,MIN,11,00-0040173,DT,Tyrion Ingram-Dawkins,Tyrion,Ingram-Dawkins,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,NO,11,00-0033906,RB,Alvin Kamara,Alvin,Kamara,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,NO,11,00-0034361,S,Justin Reid,Justin,Reid,Not injury related - personal matter,NA,Out,Not injury related - personal matter,NA,Did Not Participate In Practice
+2026,REG,REG,NO,11,00-0035242,C,Erik McCoy,Erik,McCoy,Biceps,NA,Out,Biceps,NA,Did Not Participate In Practice
+2026,REG,REG,NO,11,00-0036927,LB,Pete Werner,Pete,Werner,Hamstring,NA,Questionable,Hamstring,NA,Did Not Participate In Practice
+2026,REG,REG,NO,11,00-0037250,CB,Martin Emerson,Martin,Emerson,Concussion,NA,Out,Concussion,NA,Did Not Participate In Practice
+2026,REG,REG,NO,11,00-0038601,T,Asim Richards,Asim,Richards,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
+2026,REG,REG,NO,11,00-0039339,T,Taliese Fuaga,Taliese,Fuaga,Knee,NA,Out,Knee,NA,Did Not Participate In Practice
+2026,REG,REG,NO,11,00-0039357,CB,Decamerion Richardson,Decamerion,Richardson,Thigh,NA,Questionable,Thigh,NA,Limited Participation in Practice
+2026,REG,REG,NO,11,00-0039622,LB,Isaiah Stalbird,Isaiah,Stalbird,NA,NA,NA,Not injury related - personal matter,NA,Did Not Participate In Practice
+2026,REG,REG,NO,11,00-0041029,WR,Jordyn Tyson,Jordyn,Tyson,NA,NA,NA,Chest,NA,Full Participation in Practice
+2026,REG,REG,NO,11,00-0041326,RB,CJ Donaldson,De'Carlo,Donaldson,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,NYG,11,00-0034248,S,Elijah Campbell,Elijah,Campbell,NA,NA,NA,Knee,NA,Limited Participation in Practice
+2026,REG,REG,NYG,11,00-0036280,LB,Malik Harrison,Malik,Harrison,NA,NA,NA,Groin,NA,Full Participation in Practice
+2026,REG,REG,NYG,11,00-0036502,S,Jason Pinnock,Jason,Pinnock,NA,NA,NA,Hip,NA,Full Participation in Practice
+2026,REG,REG,NYG,11,00-0037838,TE,Isaiah Likely,Isaiah,Likely,NA,NA,NA,Groin,NA,Did Not Participate In Practice
+2026,REG,REG,NYG,11,00-0038986,CB,Nic Jones,Nic,Jones,NA,NA,NA,Knee,NA,Limited Participation in Practice
+2026,REG,REG,NYG,11,00-0039000,CB,Deonte Banks,Deonte,Banks,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,NYG,11,00-0040715,RB,Cam Skattebo,Cameron,Skattebo,NA,NA,NA,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,NYG,11,00-0041143,LS,Ben Mann,Ben,Mann,NA,NA,NA,Illness,NA,Full Participation in Practice
+2026,REG,REG,NYJ,11,00-0030565,QB,Geno Smith,Eugene,Smith,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,NYJ,11,00-0033051,DT,David Onyemata,Ebuka,Onyemata,Abdomen,NA,Out,Abdomen,NA,Limited Participation in Practice
+2026,REG,REG,NYJ,11,00-0034782,DT,Harrison Phillips,Harrison,Phillips,Ankle,NA,Questionable,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,NYJ,11,00-0036902,DE,Joseph Ossai,Joseph,Ossai,Foot,Ankle,Questionable,Foot,Ankle,Full Participation in Practice
+2026,REG,REG,NYJ,11,00-0037255,G,Dylan Parham,Dylan,Parham,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,NYJ,11,00-0039347,LB,Trevin Wallace,Trevin,Wallace,Groin,NA,Questionable,Groin,NA,Full Participation in Practice
+2026,REG,REG,NYJ,11,00-0039451,WR,Isaiah Williams,Isaiah,Williams,Ribs,NA,Out,Ribs,NA,Did Not Participate In Practice
+2026,REG,REG,NYJ,11,00-0041511,WR,Omar Cooper Jr.,Omar,Cooper,Ankle,Hip,Out,Ankle,Hip,Did Not Participate In Practice
+2026,REG,REG,PHI,11,00-0032580,CB,Jonathan Jones,Jonathan,Jones,NA,NA,NA,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,PHI,11,00-0034844,RB,Saquon Barkley,Saquon,Barkley,NA,NA,NA,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,PHI,11,00-0036224,LB,Jonathan Greenard,Jonathan,Greenard,NA,NA,NA,Not injury related - resting player,Ankle,Did Not Participate In Practice
+2026,REG,REG,PHI,11,00-0036418,LB,Zack Baun,Zack,Baun,Back,NA,Out,Back,NA,Did Not Participate In Practice
+2026,REG,REG,PHI,11,00-0036501,CB,Michael Carter II,Michael,Carter,NA,NA,NA,Abdomen,NA,Full Participation in Practice
+2026,REG,REG,PHI,11,00-0036912,WR,DeVonta Smith,DeVonta,Smith,NA,NA,NA,Hamstring,NA,Full Participation in Practice
+2026,REG,REG,PHI,11,00-0037132,WR,Britain Covey,Britain,Covey,NA,NA,NA,Knee,NA,Limited Participation in Practice
+2026,REG,REG,PHI,11,00-0038393,WR,Dontayvion Wicks,Dontayvion,Wicks,Ankle,Foot,Out,Ankle,Foot,Limited Participation in Practice
+2026,REG,REG,PHI,11,00-0038400,QB,Tanner McKee,Tanner,McKee,NA,NA,NA,Rib,NA,Full Participation in Practice
+2026,REG,REG,PHI,11,00-0039013,LB,Nolan Smith,Nolan,Smith,NA,NA,NA,Illness,NA,Full Participation in Practice
+2026,REG,REG,PHI,11,00-0039740,LB,Jalyx Hunt,Jalyx,Hunt,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,PHI,11,00-0039746,RB,Will Shipley,William,Shipley,Foot,Illness,Questionable,Foot,Illness,Did Not Participate In Practice
+2026,REG,REG,PHI,11,00-0040013,LB,Smael Mondon Jr.,Smael,Mondon,Ankle,NA,Doubtful,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,PHI,11,00-0040708,LB,Jihaad Campbell,Jihaad,Campbell,NA,NA,NA,Hamstring,Quadricep,Full Participation in Practice
+2026,REG,REG,PHI,11,00-0040749,S,Andrew Mukuba,Andrew,Mukuba,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0027969,DT,Cameron Heyward,Cameron,Heyward,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0033055,CB,Jalen Ramsey,Jalen,Ramsey,NA,NA,NA,Not injury related - personal matter,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0033886,LB,T.J. Watt,Trent,Watt,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0034277,S,DeShon Elliott,Armentae,Elliott,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0036252,WR,Michael Pittman,Michael,Pittman,Foot,NA,Questionable,Foot,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0036323,LB,Patrick Queen,Patrick,Queen,Hand,NA,Questionable,Hand,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0038558,TE,Darnell Washington,Darnell,Washington,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0038577,LB,Nick Herbig,Nick,Herbig,Hip,Ribs,Questionable,Hip,Ribs,Did Not Participate In Practice
+2026,REG,REG,PIT,11,00-0039739,WR,Roman Wilson,Roman,Wilson,Hand,NA,Questionable,Hand,NA,Full Participation in Practice
+2026,REG,REG,PIT,11,00-0041396,G,Gennings Dunker,Gennings,Dunker,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,SF,11,00-0027224,LS,Jon Weeks,Jonathan,Weeks,NA,NA,NA,Chest,NA,Full Participation in Practice
+2026,REG,REG,SF,11,00-0027857,T,Trent Williams,Trenton,Williams,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,SF,11,00-0031408,WR,Mike Evans,Michael,Evans,Achilles,NA,Questionable,Achilles,NA,Limited Participation in Practice
+2026,REG,REG,SF,11,00-0033280,RB,Christian McCaffrey,Christian,McCaffrey,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,SF,11,00-0034391,S,Siran Neal,Siran,Neal,NA,NA,NA,Knee,Foot,Full Participation in Practice
+2026,REG,REG,SF,11,00-0034982,LB,Dre Greenlaw,Keaundre,Greenlaw,Neck,Not injury related - resting player,Questionable,Neck,NA,Limited Participation in Practice
+2026,REG,REG,SF,11,00-0035413,LB,Luke Gifford,Luke,Gifford,Chest,NA,Questionable,Chest,NA,Limited Participation in Practice
+2026,REG,REG,SF,11,00-0036341,DE,Khalid Kareem,Khalid,Kareem,Ankle,NA,Questionable,Ankle,NA,Limited Participation in Practice
+2026,REG,REG,SF,11,00-0036871,CB,Nate Hobbs,Nate,Hobbs,Groin,NA,Questionable,Groin,NA,Full Participation in Practice
+2026,REG,REG,SF,11,00-0036972,QB,Mac Jones,Michael,Jones,Illness,NA,Questionable,Illness,NA,Limited Participation in Practice
+2026,REG,REG,SF,11,00-0038554,S,Ji'Ayir Brown,Ji'Ayir,Brown,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,SF,11,00-0039345,CB,Renardo Green,Renardo,Green,NA,NA,NA,Back,NA,Full Participation in Practice
+2026,REG,REG,SF,11,00-0040152,CB,Upton Stout,Upton,Stout,Shoulder,Neck,Questionable,Shoulder,Neck,Limited Participation in Practice
+2026,REG,REG,SF,11,00-0040177,RB,Jordan James,Jordan,James,Calf,NA,Questionable,Calf,NA,Limited Participation in Practice
+2026,REG,REG,SF,11,00-0040660,DE,Mykel Williams,Mykel,Williams,NA,NA,NA,Hand,Ankle,Full Participation in Practice
+2026,REG,REG,SF,11,00-0040711,DT,C.J. West,Chaddrian,West,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,TB,11,00-0032889,DT,A'Shawn Robinson,A'Shawn,Robinson,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,TB,11,00-0033921,WR,Chris Godwin Jr.,Rod,Godwin,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,TB,11,00-0034855,QB,Baker Mayfield,Baker,Mayfield,Foot,Thumb,Questionable,Foot,Thumb,Limited Participation in Practice
+2026,REG,REG,TB,11,00-0036406,T,Tristan Wirfs,Tristan,Wirfs,NA,NA,NA,Toe,NA,Full Participation in Practice
+2026,REG,REG,TB,11,00-0036411,S,Antoine Winfield Jr.,Antoine,Winfield,Ankle,NA,Out,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,TB,11,00-0038129,TE,Cade Otton,Cade,Otton,NA,NA,NA,Thumb,NA,Full Participation in Practice
+2026,REG,REG,TB,11,00-0039051,CB,Josh Hayes,Josh,Hayes,Knee,NA,Out,Knee,NA,Full Participation in Practice
+2026,REG,REG,TB,11,00-0039068,LB,Yaya Diaby,Yaya,Diaby,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,TB,11,00-0039361,RB,Bucky Irving,Mar'Keise,Irving,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0034805,DE,John Franklin-Myers,John,Franklin-Myers,NA,NA,NA,Back,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0035261,RB,Tony Pollard,Tony,Pollard,NA,NA,NA,Not injury related - resting player,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0035672,LB,Cody Barton,Cody,Barton,NA,NA,NA,Concussion,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0036876,TE,Kylen Granson,Kylen,Granson,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0037155,S,Tony Adams,Tony,Adams,Concussion,NA,Questionable,Concussion,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0039032,RB,Tyjae Spears,Tyjae,Spears,Knee,NA,Questionable,Knee,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0040020,CB,Micah Robinson,Micah,Robinson,Hip,NA,Questionable,Hip,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0040141,S,Kevin Winston Jr.,Kevin,Winston,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0040881,G,Fernando Carmona,Fernando,Carmona,Ankle,NA,Out,Ankle,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0041438,WR,Carnell Tate,Carnell,Tate,Shoulder,NA,Questionable,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,TEN,11,00-0041479,LB,Anthony Hill Jr.,Anthony,Hill,Neck,NA,Questionable,Neck,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0031588,WR,Stefon Diggs,Stefon,Diggs,NA,NA,NA,Not injury related - resting player,NA,Did Not Participate In Practice
+2026,REG,REG,WAS,11,00-0033082,C,Lucas Patrick,Lucas,Patrick,Concussion,NA,Questionable,Concussion,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0033831,T,Andrew Wylie,Andrew,Wylie,NA,NA,NA,Hip,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0033947,DE,Deatrich Wise,Deatrich,Wise,NA,NA,NA,Not injury related - resting player,NA,Limited Participation in Practice
+2026,REG,REG,WAS,11,00-0035149,G,Nick Allegretti,Nick,Allegretti,NA,NA,NA,Chest,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0036375,CB,Amik Robertson,Amik,Robertson,Ankle,NA,Questionable,Ankle,NA,Did Not Participate In Practice
+2026,REG,REG,WAS,11,00-0036628,TE,John Bates,John,Bates,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0037256,RB,Rachaad White,Rachaad,White,Heel,NA,Questionable,Heel,NA,Did Not Participate In Practice
+2026,REG,REG,WAS,11,00-0037742,WR,Treylon Burks,Treylon,Burks,NA,NA,NA,Foot,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0037809,TE,Chig Okonkwo,Chigoziem,Okonkwo,NA,NA,NA,Back,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0039149,S,Quan Martin,Jartavius,Martin,NA,NA,NA,Shoulder,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0039681,S,Tyler Owens,Tyler,Owens,NA,NA,NA,Ankle,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0039686,TE,Colson Yankoff,Colson,Yankoff,NA,NA,NA,Knee,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0039910,QB,Jayden Daniels,Jayden,Daniels,NA,NA,NA,Elbow,NA,Full Participation in Practice
+2026,REG,REG,WAS,11,00-0040242,RB,Jacory Croskey-Merritt,Jacory,Croskey-Merritt,Groin,NA,Questionable,Groin,NA,Full Participation in Practice
